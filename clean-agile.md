@@ -12,17 +12,17 @@ https://mgxian.dev/
 
 ---
 
-<img src="clean-agile.jpg" alt="clean-agile" height="600px" width="450px">
+<img src="images/clean-agile.jpg" alt="clean-agile" height="600px" width="450px">
 
 ---
 
-<img src="Robert_Cecil_Martin.png" alt="clean-agile" height="500px" width="420px">
+<img src="images/Robert_Cecil_Martin.png" alt="clean-agile" height="500px" width="420px">
 
 Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁之道》作者，敏捷宣言作者之一
 
 ---
 
-<img src="xiongjie.png" alt="xiongjie" height="400px" width="320px">
+<img src="images/xiongjie.png" alt="xiongjie" height="400px" width="320px">
 
 中文译者熊节
 
@@ -57,7 +57,7 @@ Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁�
 
 ### 瀑布软件开发
 
-<img src="waterfall.png" alt="smiley" height="400px" width="500px">
+<img src="images/waterfall.png" alt="smiley" height="400px" width="500px">
 
 Winston Walker Royce 1970 年发布的关于管理大规模软件开发项目想法的论文中的图
 
@@ -73,7 +73,7 @@ Winston Walker Royce 1970 年发布的关于管理大规模软件开发项目想
 
 2001 年 17 位软件专家组织会议，期望能改善软件开发的糟糕状况，他们在细节上没有达成一致，但是共同创建了敏捷宣言
 
-<img src="agile-17-authors.png" alt="agile-17-authors" height="400px" width="500px">
+<img src="images/agile-17-authors.png" alt="agile-17-authors" height="400px" width="500px">
 
 ---
 
@@ -105,7 +105,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-<img src="iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="300px" width="300px">
+<img src="images/iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="300px" width="300px">
 
 四个方面可以有不同的系数，我们应该把项目朝着足够好，足够快，足够低成本并且只完成必须功能的方向前进，而不是每个的系数都是 100%
 
@@ -119,7 +119,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 **团队速率图**
 
-<img src="team-velocity.png" alt="团队速率图" height="400px" width="800px">
+<img src="images/team-velocity.png" alt="团队速率图" height="400px" width="800px">
 
 团队速率图表示团队每个迭代完成的用户故事点数
 
@@ -127,7 +127,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 **燃尽图**
 
-<img src="burn-down.png" alt="燃尽图" height="400px" width="800px">
+<img src="images/burn-down.png" alt="燃尽图" height="400px" width="800px">
 
 燃尽图表示项目用户故事点数的变化情况
 
@@ -137,31 +137,31 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-![](meeting.jpg)
+![](images/meeting.jpg)
 
 我们确定了项目的截止日期。开会决定分析阶段所需时间、设计阶段所需时间、实现阶段所需时间
 
 ---
 
-<img src="analyze.jpg" alt="analyze" height="400px" width="800px">
+<img src="images/analyze.jpg" alt="analyze" height="400px" width="800px">
 
 分析阶段是一个很轻松欢乐的阶段，我们上上网，与客户聊聊天，当计划的时间结束时，我们结束了分析，“神奇”的完成了分析阶段
 
 ---
 
-<img src="software-design.png" alt="analyze" height="300px" width="600px">
+<img src="images/software-design.png" alt="analyze" height="300px" width="600px">
 
 设计阶段我们把项目分成多个模块，并设计接口。新的需求被添加进来，老的需求被移除或者修改，我们很想重新分析这些改变，但是由于时间紧迫，我们只能把这些改变 hack 进设计，当计划的时间结束，我们结束了设计，设计阶段也神奇的完成了
 
 ---
 
-<img src="write-code.jpg" alt="write-code" height="300px" width="500px">
+<img src="images/write-code.jpg" alt="write-code" height="300px" width="500px">
 
 实现阶段有明确的标准，我们没有办法来假装我们已经完成了实现阶段的工作。需求仍然在持续改变。我们很想回去重新进行分析、重新设计这些改变，但是由于所剩时间不多，我们只能把这些改变一个接一个的 hack 进代码里
 
 ---
 
-<img src="wrong-code.png" alt="write-code" height="300px" width="350px">
+<img src="images/wrong-code.png" alt="write-code" height="300px" width="350px">
 
 当回头把这些代码与设计对比时，发现代码与设计跟之前的设想已经相差甚远。在交付日期只有两周时，我们告诉利益相关人（可能是产品负责人、客户等），我们不能如期交付软件。他们会作何反应
 
@@ -175,7 +175,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-<img src="the-whole-project.png" alt="write-code" height="300px" width="600px">
+<img src="images/the-whole-project.png" alt="write-code" height="300px" width="600px">
 
 我们把时间分隔正常的增量小段，称它为迭代（iterations）或者冲刺（sprints），右侧是截止时间。迭代通常为一周或者二周
 
@@ -202,7 +202,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-<img src="lose-hope.jpg" alt="lose-hope" height="300px" width="600px">
+<img src="images/lose-hope.jpg" alt="lose-hope" height="300px" width="600px">
 
 让他们失去希望是敏捷软件开发的主要目标，我们采用敏捷的目的就是为了在希望杀死项目之前摧毁希望，因为希望会导致管理者看不到项目的真实进度。敏捷软件开发引导项目走向最好的可能结果，可能这并不是最想要的结果，但这就是最好的可能结果
 
@@ -222,7 +222,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 增加人员？
 
-<img src="add-more-member.png" alt="add-more-member" height="300px" width="400px">
+<img src="images/add-more-member.png" alt="add-more-member" height="300px" width="400px">
 <!-- .element: class="fragment" -->
 
 有数据表明增加人员的前几周并不能提高生产力，反而会降低生产力，后面生产力会逐渐增加。你只能寄希望于后面会补上前面丢失的生产力，并且增加人员，通常会增加预算
@@ -260,23 +260,23 @@ That is, while there is value in the items on the right, we value the items on t
 
 XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软件开发的要求。Ron Jeffries 总结了 XP 的实践图，被称为 “Circle of Life” 
 
-<img src="the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
 
 ---
 
-<img src="the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
 
 外圈的环是面向业务的实践，本质上相当于 Scrum 。它提供了软件开发人员与业务人员的沟通框架
 
 ---
 
-<img src="the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
 
 中间的环是面向团队的实践，这些实践提供了开发团队内部沟通和自我管理的原则和框架
 
 ---
 
-<img src="the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
 
 内圈的环代表了技术实践，指导和限制程序员保证尽可能高的技术质量
 
@@ -363,7 +363,7 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 
 #### 用户故事
 
-<img src="userstory.jpg" alt="userstory" height="200px" width="400px">
+<img src="images/userstory.jpg" alt="userstory" height="200px" width="400px">
 
 用户故事是从用户的角度描述系统特性的简短描述，例如：作为一名汽车司机，为了提高我的速度，我会更用力地踩油门踏板
 
@@ -407,7 +407,7 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 
 **投资回报**
 
-<img src="the-four-quadrant-game.png" alt="the-four-quadrant-game" height="300px" width="500px">
+<img src="images/the-four-quadrant-game.png" alt="the-four-quadrant-game" height="300px" width="500px">
 
 ROI （return on investment）和用户故事优先级评估
 
@@ -609,7 +609,7 @@ QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的�
 
 **红绿重构**
 
-<img src="red-green-refactor.png" alt="analyze" height="300px" width="600px">
+<img src="images/red-green-refactor.png" alt="analyze" height="300px" width="600px">
 
 - 首先，我们创建一个失败的测试<!-- .element: class="fragment" -->
 - 然后，我们编写代码让测试通过<!-- .element: class="fragment" -->
