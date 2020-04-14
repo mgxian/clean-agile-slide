@@ -61,7 +61,8 @@ Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁�
 
 Winston Walker Royce 1970 年发布的关于管理大规模软件开发项目想法的论文中的图
 
----
+
+Note: 
 
 人们从他的论文中拿走了瀑布软件开发模式的概念，然后瀑布软件开发模式统治了接下来的 30 年
 
@@ -71,9 +72,11 @@ Winston Walker Royce 1970 年发布的关于管理大规模软件开发项目想
 
 ### 敏捷宣言
 
-2001 年 17 位软件专家组织会议，期望能改善软件开发的糟糕状况，他们在细节上没有达成一致，但是共同创建了敏捷宣言
+<img src="images/agile-17-authors.png" alt="agile-17-authors" height="550px" width="700px">
 
-<img src="images/agile-17-authors.png" alt="agile-17-authors" height="400px" width="500px">
+Notes:
+
+2001 年 17 位软件专家组织会议，期望能改善软件开发的糟糕状况，他们在细节上没有达成一致，但是共同创建了敏捷宣言
 
 ---
 
@@ -105,7 +108,9 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-<img src="images/iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="300px" width="300px">
+<img src="images/iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="600px" width="600px">
+
+Note: 
 
 四个方面可以有不同的系数，我们应该把项目朝着足够好，足够快，足够低成本并且只完成必须功能的方向前进，而不是每个的系数都是 100%
 
@@ -137,7 +142,11 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-![](images/meeting.jpg)
+<img src="images/meeting.jpg" alt="analyze" height="400px" width="800px">
+
+计划会议
+
+Note: 
 
 我们确定了项目的截止日期。开会决定分析阶段所需时间、设计阶段所需时间、实现阶段所需时间
 
@@ -145,23 +154,39 @@ That is, while there is value in the items on the right, we value the items on t
 
 <img src="images/analyze.jpg" alt="analyze" height="400px" width="800px">
 
+分析阶段
+
+Note: 
+
 分析阶段是一个很轻松欢乐的阶段，我们上上网，与客户聊聊天，当计划的时间结束时，我们结束了分析，“神奇”的完成了分析阶段
 
 ---
 
-<img src="images/software-design.png" alt="analyze" height="300px" width="600px">
+<img src="images/software-design.png" alt="analyze" height="400px" width="800px">
+
+设计阶段
+
+Note: 
 
 设计阶段我们把项目分成多个模块，并设计接口。新的需求被添加进来，老的需求被移除或者修改，我们很想重新分析这些改变，但是由于时间紧迫，我们只能把这些改变 hack 进设计，当计划的时间结束，我们结束了设计，设计阶段也神奇的完成了
 
 ---
 
-<img src="images/write-code.jpg" alt="write-code" height="300px" width="500px">
+<img src="images/write-code.jpg" alt="write-code" height="400px" width="800px">
+
+实现阶段
+
+Note: 
 
 实现阶段有明确的标准，我们没有办法来假装我们已经完成了实现阶段的工作。需求仍然在持续改变。我们很想回去重新进行分析、重新设计这些改变，但是由于所剩时间不多，我们只能把这些改变一个接一个的 hack 进代码里
 
 ---
 
-<img src="images/wrong-code.png" alt="write-code" height="300px" width="350px">
+<img src="images/wrong-code.png" alt="write-code" height="400px" width="500px">
+
+交付前两周
+
+Note: 
 
 当回头把这些代码与设计对比时，发现代码与设计跟之前的设想已经相差甚远。在交付日期只有两周时，我们告诉利益相关人（可能是产品负责人、客户等），我们不能如期交付软件。他们会作何反应
 
@@ -196,13 +221,20 @@ That is, while there is value in the items on the right, we value the items on t
 
 **迭代 1**
 
-迭代 1 从评估本次迭代计划完成多少用户故事开始，然后团队开始工作，完成用户故事。
+迭代 1 从评估本次迭代计划完成多少用户故事开始，然后团队开始工作，完成用户故事
+
+Notes:
+
 迭代结束时，我们完成了部分用户故事，这是我们对一次迭代中可以完成用户故事数的首次测量。
 我们假定每一个迭代都相似，我们就可以调整项目计划，重新计算项目的完成日期。这可能会严重超过之前计划的截止时间。随着迭代的进行，团队完成的点数，可能会变化，我们的调整可能会持续进行，直到它非常的稳定
 
 ---
 
 <img src="images/lose-hope.jpg" alt="lose-hope" height="300px" width="600px">
+
+打破幻想
+
+Notes:
 
 让他们失去希望是敏捷软件开发的主要目标，我们采用敏捷的目的就是为了在希望杀死项目之前摧毁希望，因为希望会导致管理者看不到项目的真实进度。敏捷软件开发引导项目走向最好的可能结果，可能这并不是最想要的结果，但这就是最好的可能结果
 
@@ -225,15 +257,19 @@ That is, while there is value in the items on the right, we value the items on t
 <img src="images/add-more-member.png" alt="add-more-member" height="300px" width="400px">
 <!-- .element: class="fragment" -->
 
+Notes:
+
 有数据表明增加人员的前几周并不能提高生产力，反而会降低生产力，后面生产力会逐渐增加。你只能寄希望于后面会补上前面丢失的生产力，并且增加人员，通常会增加预算
-<!-- .element: class="fragment" -->
 
 ---
 
 降低质量？
 
-我们都本能的认为停止写测试、停止做代码评审、停止做重构，仅仅写生产代码，可以加快速度。但是事实并非如此，不做这些看似没用的事情，不仅不会加快速度，反而会降低速度。如果你想走的更快，你应该先走好每一步。如果你想减少项目时间，唯一的选项就是提高质量
-<!-- .element: class="fragment" -->
+我们都本能的认为停止写测试、停止做代码评审、停止做重构，仅仅写生产代码，可以加快速度<!-- .element: class="fragment" -->
+
+Notes:
+
+但是事实并非如此，不做这些看似没用的事情，不仅不会加快速度，反而会降低速度。如果你想走的更快，你应该先走好每一步。如果你想减少项目时间，唯一的选项就是提高质量
 
 ---
 
@@ -251,6 +287,13 @@ That is, while there is value in the items on the right, we value the items on t
 ---
 
 #### 敏捷要点
+
+- 进度可衡量
+- 业务价值
+- 高质量
+- 需求调整
+
+Notes:
 
 上面描述的只是敏捷软件开发的大概，但这是敏捷的要点。每一个迭代的输出都是可以衡量的，用于持续评估时间表，需求按业务价值的顺序来实现，质量保持尽量的高，时间表主要靠改变需求范围来调整，这就是敏捷
 
@@ -367,6 +410,8 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 
 用户故事是从用户的角度描述系统特性的简短描述，例如：作为一名汽车司机，为了提高我的速度，我会更用力地踩油门踏板
 
+Note: 
+
 通常，我们把故事写在索引卡上，不一定非要使用软件工具
 
 ---
@@ -382,6 +427,8 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 - 转账（Transfer）
 - 登录（Login）
 - 登出（Logout）
+
+Note: 
 
 在迭代 0，我们写出了以上的 5 个用户故事， 我们也讨论了这些用户故事的细节，比如用户使用密码登录等，但是我们不相信这些细节，我们没有把他们写在故事卡上，我们在故事卡上只写了上面简短的单词
 
@@ -417,9 +464,9 @@ ROI （return on investment）和用户故事优先级评估
 
 在迭代的时间中点，我们只完成了 10 点，那利益相关者就需要从迭代中去除 10 点的用户故事
 
-到迭代结束可能只完成了 18 点，但这并不表示这个迭代失败了，一个迭代的目的是为了给管理者产生数据
+Note: 
 
----
+到迭代结束可能只完成了 18 点，但这并不表示这个迭代失败了，一个迭代的目的是为了给管理者产生数据
 
 现在我们一个迭代可以完成 18 点，在下一个迭代我们应该计划 18 点，在 IPM 会议上，利益相关者选择 18 点的用户故事，在这个迭代，中点检查时发现已经完成了 12 点，因此利益相关者又增加了 6 点用户故事，总计划 24 点，可能结果我们完成了 22 点，那么下一个迭代就设置为 22 点
 
@@ -481,7 +528,7 @@ ROI （return on investment）和用户故事优先级评估
 
 业务分析人员指定正常业务路径，QA 编写异常业务路径，开发者与业务分析人员和 QA 一起确保从技术角度来看这些测试是有意义的
 
----
+Note: 
 
 QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的开始就介入开发团队来阻止错误和遗漏，最后他们来决定软件是否可以部署
 
@@ -603,6 +650,8 @@ QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的�
 
 在不改变软件外在行为的情况下，改善代码的内部设计
 
+Note: 
+
 重构与 TDD 密切相关，为了不害怕重构代码，我们需要完整的测试来给我们非常高的信心，以保证我们的修改不会破坏之前的功能
 
 ---
@@ -707,4 +756,4 @@ QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的�
 
 ## 总结
 
-作者认为是时候有人站出来告诉大家敏捷是什么了。敏捷应该是什么。是时候记住这些基础知识了。这些基础是 Circle of Life 。是极限编程的价值观、原则和纪律。是重构的动机、技术和纪律。这些基本原则是古老的、经过考验的、正确的，是敏捷软件开发的核心
+作者认为是时候有人站出来告诉大家敏捷是什么了。敏捷应该是什么。是时候记住这些基础知识了。这些基础是 Circle of Life 。是极限编程的价值观、原则和纪律。是重构的动机、技术和纪律。这些基本原则是古老的、经过考验的、正确的，是敏捷软件开发的核心/
