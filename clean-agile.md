@@ -159,7 +159,7 @@ Notes:
 
 **与瀑布的区别**
 
-计划用户故事和架构设计永远不会停止。每一个迭代的任何时间，都会有一些分析、设计与实现，在敏捷软件开发中，一直在分析和设计。迭代并不是一个小瀑布
+迭代的任何时间，都会有一些分析、设计与实现，迭代并不是一个小瀑布
 
 ---
 
@@ -270,7 +270,7 @@ Notes:
 
 ### 业务价值优先级
 
-利益相关者按照业务价值优先级给需求排序，我们应该优先做高优先级需求
+利益相关者按照业务价值优先级给需求排序，优先做高优先级需求
 
 ---
 
@@ -344,6 +344,7 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 - 用户故事强调口头沟通
 - 人人都可以理解用户故事
 - 用户故事从用户角度描述需求
+- 用户故事的大小更适合做计划和迭代
 
 ---
 
@@ -654,6 +655,31 @@ Note:
 - 在业务实践中使用验收测试，可以在代码中记录业务细节，验证需求是否被完整的实现
 - 在团队实践中使用持续集成，可以让软件处于随时可用并且可发布的状态
 - 在技术实践中使用 TDD、重构、简单设计和结对编程，可以提高软件质量，保证后续的开发速率
+
+---
+
+**推荐视频文章**
+
+- [敏捷整洁之道](https://juejin.im/post/6844904067618045966/)
+- [测试驱动最简单例子](https://blog.csdn.net/MPU/article/details/1339958)
+- [TDD练功房 - 单位换算](https://www.bilibili.com/video/BV1aE411y7hY)
+- [TDD（测试驱动开发）示范姿势（上）](https://www.jianshu.com/p/a5766176c493)
+- [TDD（测试驱动开发）示范姿势（下）](https://www.jianshu.com/p/2fa09a9410bd)
+
+---
+
+**敏捷软件开发推荐阅读书单**
+
+- 敏捷整洁之道 https://book.douban.com/subject/35083518/
+- 用户故事与敏捷方法 https://book.douban.com/subject/4743056/
+- 测试驱动开发 https://book.douban.com/subject/1230036/
+- 测试驱动的面向对象软件开发 https://book.douban.com/subject/4910582/
+- 实现模式 https://book.douban.com/subject/3324516/
+- 代码整洁之道 https://book.douban.com/subject/4199741/
+- 架构整洁之道 https://book.douban.com/subject/30333919/
+- 代码整洁之道:程序员的职业素养 https://book.douban.com/subject/26919457/
+- 领域驱动设计精粹 https://book.douban.com/subject/30333944/
+- 实现领域驱动设计 https://book.douban.com/subject/25844633/
 
 ---
 
