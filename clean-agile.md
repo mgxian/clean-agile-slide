@@ -16,11 +16,9 @@ Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁�
 
 ---
 
-<img src="images/xiongjie.png" alt="xiongjie" height="400px" width="320px">
+中文版译者：申健 / 何强 / 罗涛
 
-中文版审校者熊节
-
-《重构》《实现模式》《敏捷中国史话》
+中文版审校者：熊节 / 韩磊
 
 《敏捷：清理门户》<!-- .element: class="fragment" -->
 
@@ -670,16 +668,17 @@ Note:
 
 **敏捷软件开发推荐阅读书单**
 
-- 敏捷整洁之道 https://book.douban.com/subject/35083518/
-- 用户故事与敏捷方法 https://book.douban.com/subject/4743056/
-- 测试驱动开发 https://book.douban.com/subject/1230036/
-- 测试驱动的面向对象软件开发 https://book.douban.com/subject/4910582/
-- 实现模式 https://book.douban.com/subject/3324516/
-- 代码整洁之道 https://book.douban.com/subject/4199741/
-- 架构整洁之道 https://book.douban.com/subject/30333919/
-- 代码整洁之道:程序员的职业素养 https://book.douban.com/subject/26919457/
-- 领域驱动设计精粹 https://book.douban.com/subject/30333944/
-- 实现领域驱动设计 https://book.douban.com/subject/25844633/
+- [敏捷整洁之道](https://book.douban.com/subject/35083518/)
+- [敏捷中国史话](https://book.douban.com/subject/35066500/)
+- [用户故事与敏捷方法](https://book.douban.com/subject/4743056/)
+- [测试驱动开发](https://book.douban.com/subject/1230036/)
+- [测试驱动的面向对象软件开发](https://book.douban.com/subject/4910582/)
+- [实现模式](https://book.douban.com/subject/3324516/)
+- [代码整洁之道](https://book.douban.com/subject/4199741/)
+- [架构整洁之道](https://book.douban.com/subject/30333919/)
+- [代码整洁之道:程序员的职业素养](https://book.douban.com/subject/26919457/)
+- [领域驱动设计精粹](https://book.douban.com/subject/30333944/)
+- [实现领域驱动设计](https://book.douban.com/subject/25844633/)
 
 ---
 
