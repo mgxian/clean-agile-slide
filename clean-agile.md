@@ -6,11 +6,11 @@ will（毛广献）
 
 ---
 
-<img src="images/clean-agile.jpg" alt="clean-agile" height="600px" width="450px">
+<img src="images/clean-agile.jpg" alt="clean-agile" height="600px">
 
 ---
 
-<img src="images/Robert_Cecil_Martin.png" alt="clean-agile" height="500px" width="420px">
+<img src="images/Robert_Cecil_Martin.png" alt="clean-agile" height="500px">
 
 Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁之道》作者，敏捷宣言作者之一
 
@@ -20,14 +20,14 @@ Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁�
 
 中文版审校者：熊节 / 韩磊
 
-《敏捷：清理门户》<!-- .element: class="fragment" -->
+《敏捷：清理门户》
 
 ---
 
 谈到敏捷你最先想到什么？
 
-- Scrum ？<!-- .element: class="fragment" -->
-- 快 ？<!-- .element: class="fragment" -->
+- Scrum ？
+- 快 ？
 
 ---
 
@@ -47,11 +47,9 @@ Robert C. Martin 俗称 Uncle Bob ，《代码整洁之道》、《架构整洁�
 
 ### 瀑布软件开发
 
-<img src="images/waterfall.png" alt="smiley" height="400px" width="500px">
+<img src="images/waterfall.png" alt="smiley" height="300px">
 
 Winston Walker Royce 1970 年发布的关于管理大规模软件开发项目想法的论文中的图
-
-Note:
 
 人们从他的论文中拿走了瀑布软件开发模式的概念，然后瀑布软件开发模式统治了接下来的 30 年
 
@@ -61,53 +59,35 @@ Note:
 
 ---
 
-<img src="images/meeting.jpg" alt="analyze" height="400px" width="800px">
+<img src="images/meeting.jpg" alt="analyze" height="400px">
 
 计划会议
-
-Note:
 
 我们确定了项目的截止日期。开会决定分析阶段所需时间、设计阶段所需时间、实现阶段所需时间
 
 ---
 
-<img src="images/analyze.jpg" alt="analyze" height="400px" width="800px">
+<img src="images/analyze.jpg" alt="analyze" height="350px">
 
-分析阶段
-
-Note:
-
-分析阶段是一个很轻松欢乐的阶段，我们上上网，与客户聊聊天，当计划的时间结束时，我们结束了分析，“神奇”的完成了分析阶段
+分析阶段，是一个很轻松欢乐的阶段，我们上上网，与客户聊聊天
 
 ---
 
-<img src="images/software-design.png" alt="analyze" height="400px" width="800px">
+<img src="images/software-design.png" alt="analyze" height="300px">
 
-设计阶段
-
-Note:
-
-设计阶段我们把项目分成多个模块，并设计接口。新的需求被添加进来，老的需求被移除或者修改，我们很想重新分析这些改变，但是由于时间紧迫，我们只能把这些改变 hack 进设计，当计划的时间结束，我们结束了设计，设计阶段也神奇的完成了
+设计阶段，我们把项目分成多个模块，并设计接口。新的需求被添加进来，老的需求被移除或修改，我们想重新分析这些改变，但由于时间紧迫，只能把这些改变 hack 进设计
 
 ---
 
-<img src="images/write-code.jpg" alt="write-code" height="400px" width="800px">
-
-实现阶段
-
-Note:
+<img src="images/write-code.jpg" alt="write-code" height="300px">
 
 实现阶段有明确的标准，我们没有办法来假装我们已经完成了实现阶段的工作。需求仍然在持续改变。我们很想回去重新进行分析、重新设计这些改变，但是由于所剩时间不多，我们只能把这些改变一个接一个的 hack 进代码里
 
 ---
 
-<img src="images/wrong-code.png" alt="write-code" height="400px" width="500px">
+<img src="images/wrong-code.png" alt="write-code" height="400px">
 
-交付前两周
-
-Note:
-
-当回头把这些代码与设计对比时，发现代码与设计跟之前的设想已经相差甚远。在交付日期只有两周时，我们告诉利益相关人（可能是产品负责人、客户等），我们不能如期交付软件。他们会作何反应
+交付前两周，当回头把这些代码与设计对比时，发现代码与设计跟之前的设想已经相差甚远。而且我们还不能如期交付软件
 
 ---
 
@@ -119,9 +99,7 @@ Note:
 
 ### 敏捷宣言
 
-<img src="images/agile-17-authors.png" alt="agile-17-authors" height="550px" width="700px">
-
-Notes:
+<img src="images/agile-17-authors.png" alt="agile-17-authors" height="350px">
 
 2001 年 17 位软件专家组织会议，期望能改善软件开发的糟糕状况，他们在细节上没有达成一致，但是共同创建了敏捷宣言
 
@@ -132,7 +110,7 @@ Notes:
 - **客户合作**高于合同谈判
 - **响应变化**高于遵循计划
 
-尽管右项有其价值，我们更重视左项的价值<!-- .element: class="fragment" -->
+尽管右项有其价值，我们更重视左项的价值
 
 ---
 
@@ -140,7 +118,7 @@ Notes:
 
 ---
 
-<img src="images/the-whole-project.png" alt="write-code" height="300px" width="600px">
+<img src="images/the-whole-project.png" alt="write-code" height="300px">
 
 把时间分隔成增量小段，称为迭代（iterations）或者冲刺（sprints），迭代通常为一周或者二周
 
@@ -167,7 +145,7 @@ Notes:
 
 迭代结束，统计用户故事点数，调整项目时间
 
-Notes:
+---
 
 迭代结束时，我们完成了部分用户故事，这是我们对一次迭代中可以完成用户故事数的首次测量。
 我们假定每一个迭代都相似，我们就可以调整项目计划，重新计算项目的完成日期。这可能会严重超过之前计划的截止时间。随着迭代的进行，团队完成的点数，可能会变化，我们的调整可能会持续进行，直到它非常的稳定
@@ -184,7 +162,7 @@ Notes:
 
 **团队速率图**
 
-<img src="images/team-velocity.png" alt="团队速率图" height="400px" width="800px">
+<img src="images/team-velocity.png" alt="团队速率图" height="400px">
 
 团队速率图表示团队每个迭代完成的用户故事点数
 
@@ -192,35 +170,21 @@ Notes:
 
 **燃尽图**
 
-<img src="images/burn-down.png" alt="燃尽图" height="400px" width="800px">
+<img src="images/burn-down.png" alt="燃尽图" height="400px">
 
 燃尽图表示项目用户故事点数的变化情况
 
 ---
 
-<img src="images/lose-hope.jpg" alt="lose-hope" height="300px" width="600px">
-
-打破幻想
-
-Notes:
-
-让他们失去希望是敏捷软件开发的主要目标，我们采用敏捷的目的就是为了在希望杀死项目之前摧毁希望，因为希望会导致管理者看不到项目的真实进度。敏捷软件开发引导项目走向最好的可能结果，可能这并不是最想要的结果，但这就是最好的可能结果
-
----
-
 ### 项目管理铁十字原则
 
-<img src="images/iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="600px" width="600px">
-
-Note:
+<img src="images/iron-cross-of-project-management.jpg" alt="项目管理铁十字原则" height="350px">
 
 四个方面可以有不同的系数，我们应该把项目朝着足够好，足够快，足够低成本并且只完成必须功能的方向前进，而不是每个的系数都是 100%
 
-敏捷软件开发可以帮助开发者和管理者执行这种实用项目管理
-
 ---
 
-项目管理者需要决定项目应该多好，多快，多低成本和完成多少功能。通常管理者可以调整如下变量：
+项目管理者需要决定项目应该多好，多快，多低成本和完成多少功能。管理者可以调整如下变量：
 
 - 需求范围
 - 改变时间
@@ -231,16 +195,13 @@ Note:
 
 改变时间？
 
-但有时因为商业原因，时间并不能更改<!-- .element: class="fragment" -->
+但有时因为商业原因，时间并不能更改
 
 ---
 
 增加人员？
 
-<img src="images/add-more-member.png" alt="add-more-member" height="300px" width="400px">
-<!-- .element: class="fragment" -->
-
-Notes:
+<img src="images/add-more-member.png" alt="add-more-member" height="300px">
 
 有数据表明增加人员的前几周并不能提高生产力，反而会降低生产力，后面生产力会逐渐增加。你只能寄希望于后面会补上前面丢失的生产力，并且增加人员，通常会增加预算
 
@@ -248,21 +209,17 @@ Notes:
 
 降低质量？
 
-我们认为停止写测试、停止做代码评审、停止做重构，仅仅写生产代码，可以加快速度<!-- .element: class="fragment" -->
+我们认为停止写测试、停止做代码评审、停止做重构，仅仅写生产代码，可以加快速度
 
-![](./images/traditional-vs-agile-cost-of-change.png)<!-- .element: class="fragment" -->
+<img src="images/traditional-vs-agile-cost-of-change.png" height="200px">
 
-Notes:
-
-但是事实并非如此，不做这些看似没用的事情，不仅不会加快速度，反而会降低速度。如果你想走的更快，你应该先走好每一步。如果你想减少项目时间，唯一的选项就是提高质量
+但是事实并非如此，不做这些看似没用的事情，不仅不会加快速度，反而会降低速度。如果你想减少项目时间，唯一的选项就是提高质量
 
 ---
 
 改变范围？
 
 有些需求可能并不需要在截止时间内完成
-
-<!-- .element: class="fragment" -->
 
 ---
 
@@ -280,39 +237,31 @@ Notes:
 - 尽可能的提高代码质量
 - 时间主要靠调整需求范围
 
-Notes:
-
-上面描述的只是敏捷软件开发的大概，但这是敏捷的要点。每一个迭代的输出都是可以衡量的，用于持续评估时间表，需求按业务价值的顺序来实现，质量保持尽量的高，时间表主要靠改变需求范围来调整，这就是敏捷
-
 ---
 
 ### 极限编程
 
-<img src="images/the-circle-of-life.png" alt="analyze" height="400px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="400px">
 
 Circle of Life
 
 最符合敏捷软件开发要求的实践
 
-Notes:
-
-XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软件开发的要求。Ron Jeffries 总结了 XP 的实践图，被称为 “Circle of Life”
-
 ---
 
-<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px">
 
 外圈的环是面向业务的实践，本质上相当于 Scrum 。它提供了软件开发人员与业务人员的沟通框架
 
 ---
 
-<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px">
 
 中间的环是面向开发团队的实践，这些实践提供了开发团队内部沟通和自我管理的原则和框架
 
 ---
 
-<img src="images/the-circle-of-life.png" alt="analyze" height="350px" width="500px">
+<img src="images/the-circle-of-life.png" alt="analyze" height="350px" >
 
 内圈的环代表了技术实践，指导和限制程序员保证尽可能高的技术质量
 
@@ -350,8 +299,6 @@ XP（Extreme Programming）中文被译为极限编程。它最符合敏捷软�
 
 简历解析：作为一名 HR，我想通过上传简历文件，来结构化候选人数据，用于快速搜索评估等
 
-Note:
-
 通常，我们把故事写在索引卡上，不一定非要使用软件工具
 
 ---
@@ -379,7 +326,7 @@ Note:
 - 尽量项目所有人都参加用户故事评估会议
 - 故事点数是相对单位，不代表时间单位，仅代表复杂度
 
-Notes:
+---
 
 开发、测试、项目管理或其他利益相关者一起开会来进行用户故事的评估。用户故事的评估的数字并不表示周、天、时等其他时间单位，它只是个相对数字，只是表示需要付出努力的单位，和实际时间没有关系，可能有的人需要一天，有的人需要两天
 
@@ -395,9 +342,7 @@ Notes:
 - 确定速率，即本次迭代要完成的故事点数
 - 选择这个迭代将要完成的用户故事
 
-Notes:
-
-迭代以迭代计划会议（Iteration Planning Meeting (IPM)）开始，所有的团队成员都需要参加这个 IPM 会议，包括利益相关者、程序员、测试、项目经理。利益相关者查看用户故事，并按业务价值给它们排序
+---
 
 利益相关者的主要工作是选出程序员和测试人员在这个迭代将要完成的用户故事，因此，他们需要知道程序员认为他们能完成多少，这个数字就是速率，由于这是第一个迭代，我们并不知道速率，所以我们随便猜一个数字，比如：30
 
@@ -419,7 +364,7 @@ Notes:
 
 到迭代结束可能只完成了 18 点，但这并不表示这个迭代失败了，一个迭代的目的是为了给管理者产生数据
 
-Notes:
+---
 
 现在我们一个迭代可以完成 18 点，在下一个迭代我们应该计划 18 点，在 IPM 会议上，利益相关者选择 18 点的用户故事，在这个迭代，中点检查时发现已经完成了 12 点，因此利益相关者又增加了 6 点用户故事，总计划 24 点，可能结果我们完成了 22 点，那么下一个迭代就设置为 22 点
 
@@ -438,10 +383,6 @@ Notes:
 
 核心思想是需求应该由业务方来指定
 
-Notes:
-
-验收测试是最少被理解、最少被使用、最混乱的敏捷实践。其基本思想非常简单：需求应该由业务来指定
-
 ---
 
 **实践**
@@ -450,9 +391,11 @@ Notes:
 - 这些测试就是用户故事完成的定义，只有通过这些测试才表示用户故事完成
 - 业务分析人员指定正常业务路径，QA 编写异常业务路径，开发者与业务分析人员和 QA 一起确保从技术角度来看这些测试是有意义的
 
-Notes:
+---
 
 QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的开始就介入开发团队来阻止错误和遗漏，最后他们来决定软件是否可以部署
+
+---
 
 运行测试的工作应该由程序员来做，只有运行测试通过才表示他们的用户故事完成了，程序员可以通过持续构建来自动化这一测试过程
 
@@ -476,10 +419,6 @@ QA 不在是在最后阶段才进入保证质量，他们在每一个迭代的�
 ### 隐喻
 
 寻找可以形象比喻项目或者项目中模块组件的词语，然后团队使用这个词语交流。领域驱动设计（Domain-Driven Design）使用统一语言（Ubiquitous Language）方便团队交流
-
-Notes:
-
-Stage
 
 ---
 
@@ -514,9 +453,9 @@ Stage
 
 ## 技术实践
 
-没有技术实践的敏捷，只是一个没有效率的空壳
+---
 
-Notes:
+没有技术实践的敏捷，只是一个没有效率的空壳
 
 许多程序员试图在没有这些技术实践的情况下实践敏捷。然而，他们失败了，因为这些实践是敏捷的核心。没有 TDD，没有重构，没有简单设计，甚至没有结对编程，敏捷就变成了一个没有效率的松散外壳
 
@@ -524,17 +463,15 @@ Notes:
 
 ### 测试驱动开发（TDD）
 
-先写测试代码，然后编写生产代码让测试通过，然后重构改善代码<!-- .element: class="fragment" -->
+先写测试代码，然后编写生产代码让测试通过，然后重构改善代码
 
 ---
 
 **TDD 三原则**
 
-- 在编写失败的测试代码之前，不允许写任何生产代码<!-- .element: class="fragment" -->
-- 在有测试失败的情况下不允许再写测试代码，编译失败也是失败的测试<!-- .element: class="fragment" -->
-- 只编写足够的生产代码来让测试通过<!-- .element: class="fragment" -->
-
-Notes:
+- 在编写失败的测试代码之前，不允许写任何生产代码
+- 在有测试失败的情况下不允许再写测试代码，编译失败也是失败的测试
+- 只编写足够的生产代码来让测试通过
 
 没有经过大量练习 TDD 的程序员可能觉得这些原则有些怪异，甚至无法接受
 
@@ -542,18 +479,10 @@ Notes:
 
 **TDD 优点**
 
-- 测试帮助理我们清思路，说明我们希望代码完成什么功能<!-- .element: class="fragment" -->
-- 测试可能就是软件最好的文档<!-- .element: class="fragment" -->
-- 代码的设计更好<!-- .element: class="fragment" -->
-- 更利于重构<!-- .element: class="fragment" -->
-
-Notes:
-
-你写的测试可能就是软件最好的文档，测试里有软件或者库的多种使用方式
-
-由于先编写测试，你需要让你的代码更容易测试，因为松耦合的代码更容易测试，所以你需要解耦代码，这样你的代码设计也会更好
-
-由于测试比较完整，当你看到需要改善的代码时，你可以放心的修改它，因为有测试代码帮你验证，你的改动有没有影响到之前的功能
+- 测试帮助理我们清思路，说明我们希望代码完成什么功能
+- 测试可能就是软件最好的文档
+- 代码的设计更好
+- 更利于重构
 
 ---
 
@@ -561,9 +490,11 @@ Notes:
 
 在不改变软件外在行为的情况下，改善代码的内部设计
 
-每个重构都可以划分成多个很小的步骤，可以随时停下，而不影响代码的正常运行
+---
 
 <img src="images/extract-function.jpg">
+
+每个重构都可以划分成多个很小的步骤，可以随时停下，而不影响代码的正常运行
 
 ---
 
@@ -577,20 +508,16 @@ Notes:
 
 旧的再见
 
-Note:
-
-重构与 TDD 密切相关，为了不害怕重构代码，我们需要完整的测试来给我们非常高的信心，以保证我们的修改不会破坏之前的功能
-
 ---
 
 **红绿重构**
 
-<img src="images/red-green-refactor.png" alt="analyze" height="300px" width="600px">
+<img src="images/red-green-refactor.png" alt="analyze" height="300px" >
 
-- 首先，我们创建一个失败的测试<!-- .element: class="fragment" -->
-- 然后，我们编写代码让测试通过<!-- .element: class="fragment" -->
-- 然后， 我们重构让代码变的整洁<!-- .element: class="fragment" -->
-- 回到开始的步骤<!-- .element: class="fragment" -->
+- 首先，我们创建一个失败的测试
+- 然后，我们编写代码让测试通过
+- 然后， 我们重构让代码变的整洁
+- 回到开始的步骤
 
 ---
 
@@ -600,10 +527,10 @@ Note:
 
 **Kent Beck 的简单设计原则**
 
-- 通过所有测试：完成所有功能<!-- .element: class="fragment" -->
-- 表明意图：之后要考虑重构让代码能表达程序员的意图，代码要易于阅读，自描述<!-- .element: class="fragment" -->
-- 去除重复：之后要考虑重构去除重复代码，可能会使用到设计模式等<!-- .element: class="fragment" -->
-- 减少元素：最后考虑减少代码元素，比如类、函数、变量等<!-- .element: class="fragment" -->
+- 通过所有测试：完成所有功能
+- 表明意图：之后要考虑重构让代码能表达程序员的意图，代码要易于阅读，自描述
+- 去除重复：之后要考虑重构去除重复代码，可能会使用到设计模式等
+- 减少元素：最后考虑减少代码元素，比如类、函数、变量等
 
 ---
 
@@ -615,9 +542,9 @@ Note:
 
 **结对编程优点**
 
-- 结对编程是在团队成员之间共享知识和防止知识孤岛形成的最佳方式<!-- .element: class="fragment" -->
-- 结对编程能减少了错误并提高设计质量<!-- .element: class="fragment" -->
-- 结对编程是另一种形式的代码评审<!-- .element: class="fragment" -->
+- 结对编程是在团队成员之间共享知识和防止知识孤岛形成的最佳方式
+- 结对编程能减少了错误并提高设计质量
+- 结对编程是另一种形式的代码评审
 
 ---
 
@@ -660,7 +587,7 @@ Note:
 
 - [敏捷整洁之道](https://juejin.im/post/6844904067618045966/)
 - [测试驱动最简单例子](https://blog.csdn.net/MPU/article/details/1339958)
-- [TDD练功房 - 单位换算](https://www.bilibili.com/video/BV1aE411y7hY)
+- [TDD 练功房 - 单位换算](https://www.bilibili.com/video/BV1aE411y7hY)
 - [TDD（测试驱动开发）示范姿势（上）](https://www.jianshu.com/p/a5766176c493)
 - [TDD（测试驱动开发）示范姿势（下）](https://www.jianshu.com/p/2fa09a9410bd)
 
